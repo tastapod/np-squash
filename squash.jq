@@ -1,4 +1,12 @@
+# Metadata
 .name += " Squash"
+
+| . += {
+    "squashedBy": {
+        "name": "np-squash",
+        "date": (now | todateiso8601)
+    }
+}
 
 # Body text
 | .styles.body += {

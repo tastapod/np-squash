@@ -1,0 +1,448 @@
+{
+  "orderedStyles": [
+    "title-mark1",
+    "title-mark2",
+    "title-mark3",
+    "title-mark4",
+    "body",
+    "code",
+    "code-left-backtick",
+    "code-right-backtick",
+    "quote-content",
+    "bold",
+    "bold-left-mark",
+    "bold-right-mark",
+    "italic",
+    "italic-left-mark",
+    "italic-right-mark",
+    "boldItalic",
+    "boldItalic-left-mark",
+    "boldItalic-right-mark",
+    "checked-todo-characters",
+    "highlighted",
+    "highlighted-left-marker",
+    "highlighted-right-marker",
+    "underlined",
+    "underline-left-tilde",
+    "underline-right-tilde",
+    "strikethrough",
+    "strikethrough-left-tilde",
+    "strikethrough-right-tilde",
+    "todo",
+    "checked",
+    "quote-mark",
+    "tabbed",
+    "link",
+    "hashtag",
+    "attag",
+    "schedule-to-date-link",
+    "done-date",
+    "schedule-from-date-link",
+    "title1",
+    "title2",
+    "title3",
+    "title4",
+    "note-title-link",
+    "note-title-link-right-bracket",
+    "note-title-link-left-bracket",
+    "flagged-1",
+    "flagged-2",
+    "flagged-3"
+  ],
+  "title1": {
+    "regex": "^\\h*(# )(.*)",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title2": {
+    "regex": "^\\h*(## )(.*)",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title3": {
+    "regex": "^\\h*(### )(.*)",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title4": {
+    "regex": "^\\h*(####+ )(.*)",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title-mark1": {
+    "regex": "^\\h*(# )(.*)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title-mark2": {
+    "regex": "^\\h*(## )(.*)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title-mark3": {
+    "regex": "^\\h*(###+ )(.*)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "title-mark4": {
+    "regex": "^\\h*(####+ )(.*)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "matchLine": true
+  },
+  "working-on": {
+    "regex": "(^|\\v)(\\h*(\\*|-|\\+)\\h*(\\[ \\]\\h+|\\h+)\\>{2}\\h+.*)($|\\v)",
+    "matchPosition": 2,
+    "borderRadius": 5,
+    "leftBorderPadding": 4,
+    "rightBorderPadding": 4,
+    "matchLine": true
+  },
+  "flagged-1": {
+    "regex": "(^|\\v)(\\h*(\\*|-|\\+)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
+    "matchPosition": 2,
+    "borderRadius": 5,
+    "leftBorderPadding": 4,
+    "rightBorderPadding": 4,
+    "matchLine": true,
+    "backgroundColor": "#22D04023"
+  },
+  "flagged-2": {
+    "regex": "(^|\\v)(\\h*(\\*|-|\\+)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
+    "matchPosition": 2,
+    "borderRadius": 5,
+    "leftBorderPadding": 4,
+    "rightBorderPadding": 4,
+    "matchLine": true,
+    "backgroundColor": "#40E3021D"
+  },
+  "flagged-3": {
+    "regex": "(^|\\v)(\\h*(\\*|-|\\+)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
+    "matchPosition": 2,
+    "borderRadius": 5,
+    "leftBorderPadding": 4,
+    "rightBorderPadding": 4,
+    "matchLine": true,
+    "backgroundColor": "#6FFF0202"
+  },
+  "bold": {
+    "regex": "(\\*\\*|__)(?=\\S)(.*?[^*_])(\\1)",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true
+  },
+  "italic": {
+    "regex": "(^|\\W)(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?[^*_])(\\2)(?!\\2)(?=\\W|$)",
+    "matchPosition": 3,
+    "isRevealOnCursorRange": true
+  },
+  "boldItalic": {
+    "regex": "(\\*\\*\\*)\\w+(\\s\\w+)*(\\*\\*\\*)",
+    "matchPosition": 0,
+    "isRevealOnCursorRange": true
+  },
+  "bold-left-mark": {
+    "regex": "(\\*\\*|__)(?=\\S)(.*?[^*_])(\\1)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "bold-right-mark": {
+    "regex": "(\\*\\*|__)(?=\\S)(.*?[^*_])(\\1)",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "italic-left-mark": {
+    "regex": "(^|\\W)(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?[^*_])(\\2)(?!\\2)(?=\\W|$)",
+    "matchPosition": 2,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "italic-right-mark": {
+    "regex": "(^|\\W)(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?[^*_])(\\2)(?!\\2)(?=\\W|$)",
+    "matchPosition": 4,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "boldItalic-left-mark": {
+    "regex": "(\\*\\*\\*)\\w+(\\s\\w+)*(\\*\\*\\*)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "boldItalic-right-mark": {
+    "regex": "(\\*\\*\\*)\\w+(\\s\\w+)*(\\*\\*\\*)",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "checked": {
+    "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[[x\\-\\>]\\] )(.*)",
+    "matchPosition": 0,
+    "matchLine": true
+  },
+  "checked-todo-characters": {
+    "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[[x\\-\\>]\\] )",
+    "matchPosition": 0,
+    "type": "linkAction",
+    "isMarkdownCharacter": true,
+    "matchLine": true,
+    "font": "noteplanstate-"
+  },
+  "todo": {
+    "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(?:(?!\\[[x\\-\\>]\\] ))(?:\\[\\s\\] )?",
+    "matchPosition": 0,
+    "type": "linkAction",
+    "isMarkdownCharacter": true,
+    "matchLine": true,
+    "font": "noteplanstate-"
+  },
+  "tabbed": {
+    "regex": "^(\\t+)(?:.*)$",
+    "matchPosition": 0,
+    "matchLine": true
+  },
+  "quote-mark": {
+    "regex": "(^\\h*> )(.*)",
+    "matchPosition": 1,
+    "leadingBorder": true,
+    "isMarkdownCharacter": true,
+    "matchLine": true,
+    "font": "noteplanstate-"
+  },
+  "quote-content": {
+    "regex": "(^\\h*> )(.*)",
+    "matchPosition": 2,
+    "matchLine": true
+  },
+  "link": {
+    "regex": "((\\b([0-9a-zA-Z\\-\\.\\+]+):\\/\\/[^：\\s{}\\[<>±„\"“]+(?<![\\.,;!\"\\]\\*]))|[^：\\*\\s{}\\(\\)\\[<>±„\"“]+\\.(com(?:\\.[a-zA-Z]{2})?|dev|org|edu|gov|uk|net|in|co\\.in|co\\.uk|co|cn|ca|de|jp|ky|fr|au|us|ru|ch|it|nl|se|no|es|mil|ac|kr|an|aq|at|bb|bw|cd|cy|dz|ec|ee|eu|lu|eg|et|fi|gh|gl|gr|hk|ht|hu|ie|il|iq|is|kh|kg|kz|lr|lv|nz|pe|pa|ph|pk|pl|pt|sg|tw|ua|me|tr|cc)(([\\/%]+[^：\\s{}<>±]*)(?<![\\.,;!\"„\"“])|$|(?=[^a-zA-Z])))",
+    "matchPosition": 1,
+    "type": "link"
+  },
+  "schedule-to-date-link": {
+    "regex": "[>@](today|tomorrow|yesterday|(([0-9]{4})(-((0[1-9]|1[0-2])(-(0[1-9]|1[0-9]|2[0-9]|3[0-1]))?|Q[1-4]|W0[1-9]|W[1-4]\\d|W5[0-3]))?))",
+    "matchPosition": 0,
+    "urlPosition": 1,
+    "type": "link",
+    "prefix": "noteplan://x-callback-url/openNote?view=daily&noteDate="
+  },
+  "done-date": {
+    "regex": "@done\\((([0-9]{4})-(0[1-9]|1[0-2])-(0[1-9]|1[0-9]|2[0-9]|3[0-1]))( ((0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]( ?[aApP][mM])?))?\\)",
+    "matchPosition": 0,
+    "type": "nolink"
+  },
+  "schedule-from-date-link": {
+    "regex": "<(([0-9]{4})(-((0[1-9]|1[0-2])(-(0[1-9]|1[0-9]|2[0-9]|3[0-1]))?|Q[1-4]|W0[1-9]|W[1-4]\\d|W5[0-3]))?)",
+    "matchPosition": 0,
+    "urlPosition": 1,
+    "type": "link",
+    "prefix": "noteplan://x-callback-url/openNote?view=daily&noteDate="
+  },
+  "note-title-link": {
+    "regex": "(\\[{2})(.*?\\]*)(\\]{2})",
+    "matchPosition": 2,
+    "urlPosition": 2,
+    "type": "noteLink",
+    "prefix": "noteplan://x-callback-url/openNote?noteTitle=",
+    "isRevealOnCursorRange": true
+  },
+  "note-title-link-right-bracket": {
+    "regex": "(\\[{2})(.*?\\]*)(\\]{2})",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "note-title-link-left-bracket": {
+    "regex": "(\\[{2})(.*?\\]*)(\\]{2})",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "hashtag": {
+    "regex": "(\\s|^|[\\'\\(\\[\\{])(?!#[\\d[:punct:]]+(\\s|$))(#([^[:punct:]\\s]|[\\-_\\/])+?\\(.*?\\)|#([^[:punct:]\\s]|[\\-_\\/])+)",
+    "matchPosition": 3,
+    "urlPosition": 3,
+    "type": "link",
+    "prefix": "noteplan://x-callback-url/selectTag?name=",
+    "borderRadius": 10,
+    "horizontalMargin": 3,
+    "leftBorderPadding": 3,
+    "rightBorderPadding": 0,
+    "inlineBorder": true
+  },
+  "attag": {
+    "regex": "(\\s|^|[\\'\\(\\[\\{])(?!@[\\d[:punct:]]+(\\s|$))(@([^[:punct:]\\s]|[\\-_\\/])+?\\(.*?\\)|@([^[:punct:]\\s]|[\\-_\\/])+)",
+    "matchPosition": 3,
+    "urlPosition": 3,
+    "type": "link",
+    "prefix": "noteplan://x-callback-url/selectTag?name=",
+    "borderRadius": 10,
+    "horizontalMargin": 3,
+    "leftBorderPadding": 3,
+    "rightBorderPadding": 0,
+    "inlineBorder": true
+  },
+  "code": {
+    "regex": "(`)([^`]{1,})(`)",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true
+  },
+  "code-left-backtick": {
+    "regex": "(`)([^`]{1,})(`)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "code-right-backtick": {
+    "regex": "(`)([^`]{1,})(`)",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true
+  },
+  "highlighted": {
+    "regex": "(==)([^=\\`]{1,})(==)",
+    "matchPosition": 0,
+    "isRevealOnCursorRange": true,
+    "borderRadius": 6,
+    "horizontalMargin": 3,
+    "leftBorderPadding": 3,
+    "rightBorderPadding": 0,
+    "inlineBorder": true,
+    "backgroundColor": "#6684FF00"
+  },
+  "highlighted-left-marker": {
+    "regex": "(==)([^=\\`]{1,})(==)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "color": "#40000000"
+  },
+  "highlighted-right-marker": {
+    "regex": "(==)([^=\\`]{1,})(==)",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "color": "#40000000"
+  },
+  "strikethrough": {
+    "regex": "(~~)([^~\\`]+)(~~)",
+    "matchPosition": 2,
+    "strikethroughStyle": 1,
+    "isRevealOnCursorRange": true,
+    "color": "#99333333",
+    "strikethroughColor": "#DD333333"
+  },
+  "strikethrough-left-tilde": {
+    "regex": "(~~)([^~\\`]+)(~~)",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "color": "#44333333"
+  },
+  "strikethrough-right-tilde": {
+    "regex": "(~~)([^~\\`]+)(~~)",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "color": "#44333333"
+  },
+  "underline": {
+    "regex": "((?<!~)~)([^~\\`]+)(~(?!~))",
+    "matchPosition": 2,
+    "isRevealOnCursorRange": true,
+    "underlineStyle": 2,
+    "underlineColor": "#FFCC66"
+  },
+  "underline-left-tilde": {
+    "regex": "((?<!~)~)([^~\\`]+)(~(?!~))",
+    "matchPosition": 1,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "color": "#44333333"
+  },
+  "underline-right-tilde": {
+    "regex": "((?<!~)~)([^~\\`]+)(~(?!~))",
+    "matchPosition": 3,
+    "isMarkdownCharacter": true,
+    "isHiddenWithoutCursor": true,
+    "isRevealOnCursorRange": true,
+    "color": "#44333333"
+  },
+  "name": " Squash",
+  "squashedBy": {
+    "name": "np-squash",
+    "date": "2025-05-11T12:55:07Z"
+  },
+  "styles": {
+    "body": {
+      "lineSpacing": 1,
+      "paragraphSpacing": 0,
+      "paragraphSpacingBefore": 0
+    },
+    "title-mark1": {
+      "lineSpacing": 0,
+      "paragraphSpacing": 0
+    },
+    "title-mark2": {
+      "lineSpacing": 0,
+      "paragraphSpacing": 0
+    },
+    "title-mark3": {
+      "lineSpacing": 0,
+      "paragraphSpacing": 0
+    },
+    "title-mark4": {
+      "lineSpacing": 0,
+      "paragraphSpacing": 0
+    },
+    "checked": {
+      "lineSpacing": 1,
+      "paragraphSpacing": 3,
+      "paragraphSpacingBefore": 0
+    },
+    "todo": {
+      "lineSpacing": 1,
+      "paragraphSpacing": 3,
+      "paragraphSpacingBefore": 0
+    },
+    "attag": {
+      "lineSpacing": 1,
+      "paragraphSpacing": 0
+    },
+    "hashtag": {
+      "lineSpacing": 1,
+      "paragraphSpacing": 0
+    }
+  }
+}

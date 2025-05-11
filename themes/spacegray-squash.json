@@ -1,137 +1,135 @@
 {
-  "name": "Toothbleach Squash",
-  "style": "Light",
+  "name": "Spacegray Squash",
+  "style": "Dark",
   "author": {
     "name": "NotePlan",
     "email": "hello@noteplan.co"
   },
   "editor": {
-    "backgroundColor": "#FAFAFA",
-    "altBackgroundColor": "#F9F9F9",
-    "tintColor": "#E8A200",
-    "tintColor2": "#769EB3",
-    "textColor": "#222E33",
-    "toolbarBackgroundColor": "#EBEBE4",
-    "toolbarIconColor": "#222E33",
-    "menuItemColor": "#222E33",
-    "timeBlockColor": "#E8A200",
+    "backgroundColor": "#2C303B",
+    "altBackgroundColor": "#262A33",
+    "tintColor": "#9EC87C",
+    "tintColor2": "#ECCB84",
+    "textColor": "#C7C6CC",
+    "toolbarBackgroundColor": "#434551",
+    "toolbarIconColor": "#A0A0A8",
+    "menuItemColor": "#A0A0A8",
+    "timeBlockColor": "#9EC87C",
     "shouldOverwriteFont": true
   },
   "styles": {
     "body": {
       "font": "AvenirNext-Regular",
       "size": 16,
-      "color": "#222E33",
+      "color": "#C7C6CC",
       "lineSpacing": 1,
       "paragraphSpacing": 0,
       "paragraphSpacingBefore": 0
     },
     "title1": {
-      "color": "#C5487A",
+      "color": "#EB7381",
       "size": 28
     },
     "title2": {
-      "color": "#9B82C9",
+      "color": "#EB7381",
       "size": 24
     },
     "title3": {
-      "color": "#9B82C9",
+      "color": "#EB7381",
       "size": 20
     },
     "working-on": {
-      "backgroundColor": "#306600FF",
-      "color": "#17003B"
+      "backgroundColor": "#77bd93f9",
+      "color": "#E9DEF9"
     },
     "flagged-1": {
-      "backgroundColor": "#22D04023",
-      "color": "#59000B"
+      "backgroundColor": "#44ff5555",
+      "color": "#FFB5B5"
     },
     "flagged-2": {
-      "backgroundColor": "#40E3021D",
-      "color": "#420008"
+      "backgroundColor": "#77ff5555",
+      "color": "#FFCCCC"
     },
     "flagged-3": {
-      "backgroundColor": "#6FFF0202",
-      "color": "#1F0004"
+      "backgroundColor": "#AAff5555",
+      "color": "#FFDBBE"
     },
     "title-mark1": {
-      "color": "#669B82C9",
+      "color": "#45EB7381",
       "size": 28,
       "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark2": {
-      "color": "#669B82C9",
+      "color": "#45EB7381",
       "size": 24,
       "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark3": {
-      "color": "#669B82C9",
+      "color": "#45EB7381",
       "size": 20,
       "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title4": {
-      "color": "#9B82C9",
+      "color": "#EB7381",
       "size": 16,
       "underlineStyle": 1
     },
     "title-mark4": {
-      "color": "#669B82C9",
+      "color": "#45EB7381",
       "size": 18,
       "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "bold": {
-      "color": "#CC6666",
       "font": "AvenirNext-Bold"
     },
     "bold-left-mark": {
-      "color": "#66CC6666"
+      "color": "#45C7C6CC"
     },
     "bold-right-mark": {
-      "color": "#66CC6666"
+      "color": "#45C7C6CC"
     },
     "italic": {
-      "color": "#769EB3",
       "font": "AvenirNext-Italic"
     },
     "italic-left-mark": {
-      "color": "#66769EB3"
+      "color": "#45C7C6CC"
     },
     "italic-right-mark": {
-      "color": "#66769EB3"
+      "color": "#45C7C6CC"
     },
     "boldItalic": {
       "font": "AvenirNext-BoldItalic"
     },
     "boldItalic-left-mark": {
-      "color": "#66CC6666"
+      "color": "#45C7C6CC"
     },
     "boldItalic-right-mark": {
-      "color": "#66CC6666"
+      "color": "#45C7C6CC"
     },
     "code": {
       "font": "Menlo-Regular",
-      "color": "#734700",
+      "color": "#ECCB84",
       "size": 15
     },
     "code-left-backtick": {
-      "color": "#66734700"
+      "color": "#66ECCB84"
     },
     "code-right-backtick": {
-      "color": "#66734700"
+      "color": "#66ECCB84"
     },
     "checked": {
-      "color": "#97B853",
+      "color": "#66C7C6CC",
       "headIndent": 33,
       "lineSpacing": 1,
       "paragraphSpacing": 3,
       "paragraphSpacingBefore": 0
     },
     "todo": {
-      "color": "#CC6666",
+      "color": "#9EC87C",
       "headIndent": 33,
       "size": 16,
       "lineSpacing": 1,
@@ -146,12 +144,12 @@
       "headIndent": 43
     },
     "quote-mark": {
-      "color": "#97B853",
+      "color": "#80ECCB84",
       "headIndent": 33,
       "size": 16
     },
     "quote-content": {
-      "color": "#A3A39E",
+      "color": "#C7C6CC",
       "type": "italic",
       "headIndent": 33
     },
@@ -161,44 +159,45 @@
     "schedule-from-date-link": {},
     "note-title-link": {},
     "hashtag": {
-      "backgroundColor": "#20E8A200",
+      "backgroundColor": "#209EC87C",
       "lineSpacing": 1,
       "paragraphSpacing": 0
     },
     "attag": {
-      "backgroundColor": "#20E8A200",
+      "backgroundColor": "#209EC87C",
       "lineSpacing": 1,
       "paragraphSpacing": 0
     },
     "phonenumber": {},
     "highlighted": {
-      "backgroundColor": "#6684FF00"
+      "backgroundColor": "#44C2CFFF",
+      "color": "#DBE3FF"
     },
     "highlighted-left-marker": {
-      "color": "#40000000"
+      "color": "#40EAEAEA"
     },
     "highlighted-right-marker": {
-      "color": "#40000000"
+      "color": "#40EAEAEA"
     },
     "strikethrough": {
-      "color": "#99333333",
-      "strikethroughColor": "#DD333333"
+      "color": "#AACBCCC6",
+      "strikethroughColor": "#CBCCC6"
     },
     "strikethrough-left-tilde": {
-      "color": "#44333333"
+      "color": "#66CBCCC6"
     },
     "strikethrough-right-tilde": {
-      "color": "#44333333"
+      "color": "#66CBCCC6"
     },
     "underline": {
       "underlineStyle": 2,
-      "underlineColor": "#FFCC66"
+      "underlineColor": "#EB7381"
     },
     "underline-left-tilde": {
-      "color": "#40000000"
+      "color": "#66CBCCC6"
     },
     "underline-right-tilde": {
-      "color": "#40000000"
+      "color": "#66CBCCC6"
     }
   },
   "squashedBy": {

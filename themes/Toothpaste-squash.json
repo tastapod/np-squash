@@ -203,5 +203,9 @@
     "underline-right-tilde": {
       "color": "#66CBCCC6"
     }
+  },
+  "squashedBy": {
+    "name": "np-squash",
+    "date": "2025-05-11T12:55:08Z"
   }
 }
