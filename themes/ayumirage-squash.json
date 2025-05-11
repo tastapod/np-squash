@@ -22,7 +22,6 @@
       "font": "AvenirNext-Regular",
       "size": 16,
       "color": "#F6F7EE",
-      "lineSpacing": 1,
       "paragraphSpacing": 0,
       "paragraphSpacingBefore": 0
     },
@@ -57,19 +56,16 @@
     "title-mark1": {
       "color": "#33FFA759",
       "size": 28,
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark2": {
       "color": "#33FFA759",
       "size": 24,
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark3": {
       "color": "#33FFA759",
       "size": 20,
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title4": {
@@ -80,7 +76,6 @@
     "title-mark4": {
       "color": "#33FFA759",
       "size": 18,
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "bold": {
@@ -130,7 +125,6 @@
     "checked": {
       "color": "#66F6F7EE",
       "headIndent": 33,
-      "lineSpacing": 1,
       "paragraphSpacing": 3,
       "paragraphSpacingBefore": 0
     },
@@ -138,7 +132,6 @@
       "color": "#FFCC66",
       "headIndent": 33,
       "size": 16,
-      "lineSpacing": 1,
       "paragraphSpacing": 3,
       "paragraphSpacingBefore": 0
     },
@@ -166,12 +159,10 @@
     "note-title-link": {},
     "hashtag": {
       "backgroundColor": "#20FFCC66",
-      "lineSpacing": 1,
       "paragraphSpacing": 0
     },
     "attag": {
       "backgroundColor": "#20FFCC66",
-      "lineSpacing": 1,
       "paragraphSpacing": 0
     },
     "phonenumber": {},
@@ -208,6 +199,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-11T12:55:07Z"
+    "date": "2025-05-11T21:10:30Z"
   }
 }

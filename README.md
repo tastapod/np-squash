@@ -24,14 +24,16 @@ One piece of friction is that the stock themes are not syntactically correct JSO
 
 ## tl;dr
 
-To create a squashed theme, install `jq` and `hjson` using e.g. `brew` on a Mac, and run:
+To create a squashed theme, install `jq`, and `hjson` if your theme is only JSON-ish, and run:
 
 ```sh
 hjson -c -preserveKeyOrder SOME-THEME.json | jq -f squash.jq > SOME-THEME-squash.json
 ```
 
-This will create a new theme, named as the input theme with the word 'Squash' added. The release directory has squashed versions of all the stock NotePlan themes. (I have not sought the authors' permission, I am hoping they will approve.)
+This will create a new theme, named as the input theme with the word 'Squash' added. You can then import this as a new NotePlan theme.
+
+To get you started, the `themes` directory has squashed versions of all the stock NotePlan themes. (I have not sought the authors' permission, I am hoping they will approve.)
 
 ## Contributing
 
-Please create an issue and/or submit a PR if you spot any missing or incorrect spacing changes, or for other errors or omissions.
+Please create an issue and/or submit a PR if you spot any missing or incorrect spacing changes, or for other errors or omissions, or if you want me to remove your theme!

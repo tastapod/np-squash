@@ -22,47 +22,38 @@
       "font": "Menlo-Regular",
       "size": 16,
       "color": "#444444",
-      "lineSpacing": 1,
       "paragraphSpacing": 0,
       "paragraphSpacingBefore": 0
     },
     "title-mark1": {
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark2": {
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark3": {
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "title-mark4": {
-      "lineSpacing": 0,
       "paragraphSpacing": 0
     },
     "checked": {
-      "lineSpacing": 1,
       "paragraphSpacing": 3,
       "paragraphSpacingBefore": 0
     },
     "todo": {
-      "lineSpacing": 1,
       "paragraphSpacing": 3,
       "paragraphSpacingBefore": 0
     },
     "attag": {
-      "lineSpacing": 1,
       "paragraphSpacing": 0
     },
     "hashtag": {
-      "lineSpacing": 1,
       "paragraphSpacing": 0
     }
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-11T12:55:07Z"
+    "date": "2025-05-11T21:10:31Z"
   }
 }
