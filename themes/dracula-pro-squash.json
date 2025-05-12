@@ -22,8 +22,7 @@
       "font": "AvenirNext-Regular",
       "size": 16,
       "color": "#F7F7EF",
-      "paragraphSpacing": 0,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": -5
     },
     "title1": {
       "color": "#8AFF7F",
@@ -43,30 +42,33 @@
     },
     "flagged-1": {
       "backgroundColor": "#44ff5555",
-      "color": "#FFB5B5"
+      "color": "#FFB5B5",
+      "paragraphSpacing": 3
     },
     "flagged-2": {
       "backgroundColor": "#77ff5555",
-      "color": "#FFCCCC"
+      "color": "#FFCCCC",
+      "paragraphSpacing": 3
     },
     "flagged-3": {
       "backgroundColor": "#AAff5555",
-      "color": "#FFDBBE"
+      "color": "#FFDBBE",
+      "paragraphSpacing": 3
     },
     "title-mark1": {
       "color": "#408AFF7F",
       "size": 28,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark2": {
       "color": "#408AFF7F",
       "size": 24,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark3": {
       "color": "#408AFF7F",
       "size": 20,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title4": {
       "color": "#8AFF7F",
@@ -76,7 +78,7 @@
     "title-mark4": {
       "color": "#408AFF7F",
       "size": 18,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "bold": {
       "color": "#9580FF",
@@ -122,22 +124,21 @@
     "checked": {
       "color": "#55F7F7EF",
       "headIndent": 33,
-      "paragraphSpacing": 3,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": 3
     },
     "todo": {
       "color": "#9580FF",
       "headIndent": 33,
       "size": 16,
-      "paragraphSpacing": 3,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": 3
     },
     "checked-todo-characters": {
       "headIndent": 33,
       "size": 16
     },
     "tabbed": {
-      "headIndent": 43
+      "headIndent": 43,
+      "paragraphSpacing": -5
     },
     "quote-mark": {
       "color": "#ccff79c6",
@@ -196,6 +197,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-11T21:10:30Z"
+    "date": "2025-05-12T12:23:23Z"
   }
 }

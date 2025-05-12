@@ -22,8 +22,7 @@
       "font": "AvenirNext-Regular",
       "size": 16,
       "color": "#EAEAEA",
-      "paragraphSpacing": 0,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": -5
     },
     "title1": {
       "color": "#FFA759",
@@ -48,35 +47,38 @@
     },
     "flagged-1": {
       "backgroundColor": "#44ff5555",
-      "color": "#FFB5B5"
+      "color": "#FFB5B5",
+      "paragraphSpacing": 3
     },
     "flagged-2": {
       "backgroundColor": "#77ff5555",
-      "color": "#FFCCCC"
+      "color": "#FFCCCC",
+      "paragraphSpacing": 3
     },
     "flagged-3": {
       "backgroundColor": "#AAff5555",
-      "color": "#FFDBBE"
+      "color": "#FFDBBE",
+      "paragraphSpacing": 3
     },
     "title-mark1": {
       "color": "#33FFA759",
       "size": 28,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark2": {
       "color": "#33FFA759",
       "size": 24,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark3": {
       "color": "#33FFA759",
       "size": 20,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark4": {
       "color": "#33FFA759",
       "size": 18,
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "bold": {
       "color": "#BAE67E",
@@ -125,8 +127,7 @@
       "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
       "matchPosition": 0,
       "color": "#88CBFFC6",
-      "paragraphSpacing": 3,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": 3
     },
     "checked-canceled": {
       "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
@@ -143,15 +144,15 @@
       "color": "#FFCC66",
       "headIndent": 33,
       "size": 16,
-      "paragraphSpacing": 3,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": 3
     },
     "checked-todo-characters": {
       "headIndent": 33,
       "size": 16
     },
     "tabbed": {
-      "headIndent": 43
+      "headIndent": 43,
+      "paragraphSpacing": -5
     },
     "quote-mark": {
       "color": "#73D0FF",
@@ -212,6 +213,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-11T21:10:30Z"
+    "date": "2025-05-12T12:23:23Z"
   }
 }

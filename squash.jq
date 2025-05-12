@@ -2,30 +2,28 @@
 .name += " Squash"
 
 | . += {
-    "squashedBy": {
-        "name": "np-squash",
-        "date": (now | todateiso8601)
+    squashedBy: {
+        name: "np-squash",
+        date: (now | todateiso8601)
     }
 }
 
-# Body text
-| .styles.body += {
-    "paragraphSpacing": 0,
-    "paragraphSpacingBefore": 0
+# Body text (negative spacing brings paragraph blocks closer together)
+| .styles.["body", "tabbed"] += {
+    paragraphSpacing: -5,
 }
 
 # Headings
 | .styles.["title-mark1", "title-mark2", "title-mark3", "title-mark4"] += {
-    "paragraphSpacing": 0
+    paragraphSpacing: 3
 }
 
 # Tasks
-| .styles.["checked", "todo"] += {
-    "paragraphSpacing": 3,
-    "paragraphSpacingBefore": 0
+| .styles.["checked", "todo", "flagged-1", "flagged-2", "flagged-3"] += {
+    paragraphSpacing: 3,
 }
 
 # Tags
 | .styles.["attag", "hashtag"] += {
-    "paragraphSpacing": 0
+    paragraphSpacing: 0
 }

@@ -56,8 +56,7 @@
       "color": "#DAE3E8",
       "font": "AvenirNextCondensed-Regular",
       "lineSpacing": 0.8,
-      "paragraphSpacing": 0,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": -5
     },
     "title1": {
       "color": "#CC6666",
@@ -83,24 +82,24 @@
       "color": "#66DAE3E8",
       "size": 28,
       "font": "AvenirNext-DemiBold",
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark2": {
       "color": "#66E9C062",
       "size": 24,
       "font": "AvenirNext-DemiBold",
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark3": {
       "color": "#66E9C062",
       "size": 20,
       "font": "AvenirNext-DemiBold",
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "title-mark4": {
       "color": "#66E9C062",
       "font": "AvenirNext-DemiBold",
-      "paragraphSpacing": 0
+      "paragraphSpacing": 3
     },
     "bold": {
       "color": "#CC6666",
@@ -138,8 +137,7 @@
       "headIndent": 33,
       "size": 16,
       "lineSpacing": 0.9,
-      "paragraphSpacing": 3,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": 3
     },
     "checked-todo-characters": {
       "headIndent": 33,
@@ -151,8 +149,7 @@
       "matchPosition": 0,
       "headIndent": 33,
       "lineSpacing": 0.9,
-      "paragraphSpacing": 3,
-      "paragraphSpacingBefore": 0
+      "paragraphSpacing": 3
     },
     "checked-canceled": {
       "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
@@ -170,7 +167,8 @@
       "lineSpacing": 0.9
     },
     "tabbed": {
-      "headIndent": 43
+      "headIndent": 43,
+      "paragraphSpacing": -5
     },
     "quote-mark": {
       "color": "#9DC777",
@@ -228,17 +226,20 @@
     "flagged-1": {
       "backgroundColor": "#44ff5555",
       "color": "#FFB5B5",
-      "lineSpacing": 0.9
+      "lineSpacing": 0.9,
+      "paragraphSpacing": 3
     },
     "flagged-2": {
       "backgroundColor": "#77ff5555",
       "color": "#FFCCCC",
-      "lineSpacing": 0.9
+      "lineSpacing": 0.9,
+      "paragraphSpacing": 3
     },
     "flagged-3": {
       "backgroundColor": "#AAff5555",
       "color": "#FFDBBE",
-      "lineSpacing": 0.9
+      "lineSpacing": 0.9,
+      "paragraphSpacing": 3
     },
     "code": {
       "font": "Menlo-Regular",
@@ -283,6 +284,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-11T21:10:31Z"
+    "date": "2025-05-12T12:23:23Z"
   }
 }
