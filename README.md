@@ -32,7 +32,7 @@ hjson -c -preserveKeyOrder SOME-THEME.json | jq -f squash.jq > SOME-THEME-squash
 
 This will create a new theme with the word 'Squashed' appended to the theme name. You can then import this as a new NotePlan theme.
 
-To get you started, the [themes](themes) directory has squashed versions of all the stock NotePlan themes. (I have not sought the authors' permission, I am hoping they will approve.)
+To get you started, the [themes](themes) directory has squashed versions of all the stock NotePlan themes. (I have ~~not~~ sought the authors' permission, ~~I am hoping they will approve~~ they said yes.)
 
 ## Contributing
 
