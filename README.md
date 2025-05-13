@@ -18,7 +18,7 @@ The problem—and it is a great problem to have!—is that NotePlan is constantl
 
 ## A better solution
 
-I decided to try [`jq`](https://jqlang.org) as a streaming JSON editor, to take an existing theme and just inject my spacing directives. It has turned out surprisingly well. I had a working solution in less than an hour from a standing start by writing a `jq` pipeline script.
+I decided to try [`jq`](https://jqlang.org) as a streaming JSON editor, to take an existing theme and just inject my spacing directives. It has turned out surprisingly well. I had a working solution in less than an hour from a standing start by writing a `jq` [pipeline script](squash.jq).
 
 One piece of friction is that the stock themes are not syntactically correct JSON, with things like trailing commas at the end of lists. The `jq` docs suggest using a third-party tool to clean up the JSON before processing it. I settled on [`hjson`](https://hjson.github.io), which has a nice CLI tool.
 
@@ -27,12 +27,12 @@ One piece of friction is that the stock themes are not syntactically correct JSO
 To create a squashed theme, install `jq`, and `hjson` if your theme is only JSON-ish, and run:
 
 ```sh
-hjson -c -preserveKeyOrder SOME-THEME.json | jq -f squash.jq > SOME-THEME-squash.json
+hjson -c -preserveKeyOrder SOME-THEME.json | jq -f squash.jq > SOME-THEME-squashed.json
 ```
 
-This will create a new theme, named as the input theme with the word 'Squash' added. You can then import this as a new NotePlan theme.
+This will create a new theme with the word 'Squashed' appended to the theme name. You can then import this as a new NotePlan theme.
 
-To get you started, the `themes` directory has squashed versions of all the stock NotePlan themes. (I have not sought the authors' permission, I am hoping they will approve.)
+To get you started, the [themes](themes) directory has squashed versions of all the stock NotePlan themes. (I have not sought the authors' permission, I am hoping they will approve.)
 
 ## Contributing
 
