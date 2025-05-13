@@ -1,5 +1,5 @@
 {
-  "name": "Monospace-Light Squash",
+  "name": "Monospace-Light Squashed",
   "style": "Light",
   "author": {
     "name": "David Wertheimer - Not really author, more like surgeon",
@@ -22,10 +22,10 @@
       "font": "Menlo-Regular",
       "size": 16,
       "color": "#444444",
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "tabbed": {
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "title-mark1": {
       "paragraphSpacing": 3
@@ -63,6 +63,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:45Z"
   }
 }

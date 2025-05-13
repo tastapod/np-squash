@@ -1,5 +1,5 @@
 {
-  "name": "Toothpaste Condensed Squash",
+  "name": "Toothpaste Condensed Squashed",
   "style": "Dark",
   "author": {
     "name": "Jonathan Clark"
@@ -56,7 +56,7 @@
       "color": "#DAE3E8",
       "font": "AvenirNextCondensed-Regular",
       "lineSpacing": 0.8,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "title1": {
       "color": "#CC6666",
@@ -168,7 +168,7 @@
     },
     "tabbed": {
       "headIndent": 43,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "quote-mark": {
       "color": "#9DC777",
@@ -284,6 +284,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:45Z"
   }
 }

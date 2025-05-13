@@ -1,130 +1,147 @@
 {
-  "name": "Black Morning Squash",
+  "name": "Apple Dark Squashed",
   "style": "Dark",
   "author": {
     "name": "NotePlan",
     "email": "hello@noteplan.co"
   },
   "editor": {
-    "backgroundColor": "#000000",
-    "altBackgroundColor": "#1A1A1A",
-    "tintColor": "#FF7C40",
-    "tintColor2": "#FF7C40",
-    "textColor": "#DFDFDF",
-    "toolbarBackgroundColor": "#282828",
-    "toolbarIconColor": "#DFDFDF",
-    "menuItemColor": "#DFDFDF",
-    "timeBlockColor": "#FF7C40",
+    "backgroundColor": "#261F23",
+    "altBackgroundColor": "#342F33",
+    "tintColor": "#FFCC66",
+    "tintColor2": "#5CCFE6",
+    "textColor": "#EAEAEA",
+    "toolbarBackgroundColor": "#342F33",
+    "toolbarIconColor": "#88EAEAEA",
+    "menuItemColor": "#CBCCC6",
+    "timeBlockColor": "#FFCC66",
     "shouldOverwriteFont": true
   },
   "styles": {
     "body": {
       "font": "AvenirNext-Regular",
       "size": 16,
-      "color": "#DFDFDF",
-      "paragraphSpacing": -5
+      "color": "#EAEAEA",
+      "paragraphSpacing": 0
     },
     "title1": {
-      "color": "#F0C000",
+      "color": "#FFA759",
       "size": 28
     },
     "title2": {
-      "color": "#F0C000",
+      "color": "#FFA759",
       "size": 24
     },
     "title3": {
-      "color": "#F0C000",
+      "color": "#FFA759",
       "size": 20
     },
+    "title4": {
+      "color": "#F0A759",
+      "size": 18,
+      "underlineStyle": 1
+    },
     "working-on": {
-      "backgroundColor": "#55bd93f9",
+      "backgroundColor": "#77bd93f9",
       "color": "#E9DEF9"
     },
     "flagged-1": {
-      "backgroundColor": "#33ff5555",
+      "backgroundColor": "#44ff5555",
       "color": "#FFB5B5",
       "paragraphSpacing": 3
     },
     "flagged-2": {
-      "backgroundColor": "#66ff5555",
+      "backgroundColor": "#77ff5555",
       "color": "#FFCCCC",
       "paragraphSpacing": 3
     },
     "flagged-3": {
-      "backgroundColor": "#99ff5555",
+      "backgroundColor": "#AAff5555",
       "color": "#FFDBBE",
       "paragraphSpacing": 3
     },
     "title-mark1": {
-      "color": "#70F0C000",
+      "color": "#33FFA759",
       "size": 28,
       "paragraphSpacing": 3
     },
     "title-mark2": {
-      "color": "#70F0C000",
+      "color": "#33FFA759",
       "size": 24,
       "paragraphSpacing": 3
     },
     "title-mark3": {
-      "color": "#70F0C000",
+      "color": "#33FFA759",
       "size": 20,
       "paragraphSpacing": 3
     },
-    "title4": {
-      "color": "#F0C000",
-      "size": 16,
-      "underlineStyle": 1
-    },
     "title-mark4": {
-      "color": "#70F0C000",
+      "color": "#33FFA759",
       "size": 18,
       "paragraphSpacing": 3
     },
     "bold": {
-      "font": "AvenirNext-Bold"
+      "color": "#BAE67E",
+      "type": "bold"
     },
     "bold-left-mark": {
-      "color": "#70DFDFDF"
+      "color": "#33BAE67E"
     },
     "bold-right-mark": {
-      "color": "#70DFDFDF"
+      "color": "#33BAE67E"
     },
     "italic": {
-      "font": "AvenirNext-Italic"
+      "color": "#95E6CB",
+      "type": "italic"
     },
     "italic-left-mark": {
-      "color": "#70DFDFDF"
+      "color": "#3395E6CB"
     },
     "italic-right-mark": {
-      "color": "#70DFDFDF"
+      "color": "#3395E6CB"
     },
     "boldItalic": {
-      "font": "AvenirNext-BoldItalic"
+      "type": "bolditalic"
     },
     "boldItalic-left-mark": {
-      "color": "#70DFDFDF"
+      "color": "#33FFE67E"
     },
     "boldItalic-right-mark": {
-      "color": "#70DFDFDF"
+      "color": "#33FFE67E"
     },
     "code": {
       "font": "Menlo-Regular",
-      "color": "#6CCAFB",
+      "color": "#D4BFFF",
+      "backgroundColor": "#33D4BFFF",
       "size": 15
     },
     "code-left-backtick": {
-      "color": "#666CCAFB"
+      "color": "#66D4BFFF",
+      "backgroundColor": "#33D4BFFF"
     },
     "code-right-backtick": {
-      "color": "#666CCAFB"
+      "color": "#66D4BFFF",
+      "backgroundColor": "#33D4BFFF"
     },
     "checked": {
-      "color": "#70DFDFDF",
-      "headIndent": 33,
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#88CBFFC6",
       "paragraphSpacing": 3
     },
+    "checked-canceled": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#44FFCCC6",
+      "strikethroughStyle": 1
+    },
+    "checked-scheduled": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#88CBCCFF"
+    },
     "todo": {
-      "color": "#FF7C40",
+      "color": "#FFCC66",
       "headIndent": 33,
       "size": 16,
       "paragraphSpacing": 3
@@ -135,15 +152,15 @@
     },
     "tabbed": {
       "headIndent": 43,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "quote-mark": {
-      "color": "#80FF7C40",
+      "color": "#73D0FF",
       "headIndent": 33,
       "size": 16
     },
     "quote-content": {
-      "color": "#AADFDFDF",
+      "color": "#CCEAEAEA",
       "type": "italic",
       "headIndent": 33
     },
@@ -153,17 +170,19 @@
     "schedule-from-date-link": {},
     "note-title-link": {},
     "hashtag": {
-      "backgroundColor": "#20FF7C40",
+      "backgroundColor": "#20FFCC66",
       "paragraphSpacing": 0
     },
     "attag": {
-      "backgroundColor": "#20FF7C40",
+      "backgroundColor": "#20FFCC66",
       "paragraphSpacing": 0
     },
-    "phonenumber": {},
+    "phonenumber": {
+      "backgroundColor": "#7745A2E5"
+    },
     "highlighted": {
-      "backgroundColor": "#55F0C000",
-      "color": "#F0E2AA"
+      "backgroundColor": "#44FF87C3",
+      "color": "#FFDEEE"
     },
     "highlighted-left-marker": {
       "color": "#40EAEAEA"
@@ -176,24 +195,24 @@
       "strikethroughColor": "#CBCCC6"
     },
     "strikethrough-left-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#55CBCCC6"
     },
     "strikethrough-right-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#55CBCCC6"
     },
     "underline": {
       "underlineStyle": 2,
-      "underlineColor": "#FFCC66"
+      "underlineColor": "#FFA759"
     },
     "underline-left-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#55CBCCC6"
     },
     "underline-right-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#55CBCCC6"
     }
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:44Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Breakers Squash",
+  "name": "Breakers Squashed",
   "style": "Light",
   "author": {
     "name": "NotePlan",
@@ -22,7 +22,7 @@
       "font": "AvenirNext-Regular",
       "size": 16,
       "color": "#333333",
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "title1": {
       "color": "#559BCF",
@@ -135,7 +135,7 @@
     },
     "tabbed": {
       "headIndent": 43,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "quote-mark": {
       "color": "#80FF5162",
@@ -193,6 +193,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:45Z"
   }
 }

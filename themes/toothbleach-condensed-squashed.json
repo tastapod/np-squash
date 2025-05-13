@@ -1,5 +1,5 @@
 {
-  "name": "Toothbleach Condensed Squash",
+  "name": "Toothbleach Condensed Squashed",
   "style": "Light",
   "author": {
     "name": "Jonathan Clark"
@@ -56,7 +56,7 @@
       "color": "#222E33",
       "font": "AvenirNextCondensed-Regular",
       "lineSpacing": 0.8,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "title1": {
       "color": "#C5487A",
@@ -147,7 +147,7 @@
     },
     "tabbed": {
       "headIndent": 43,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "quote-mark": {
       "color": "#979893",
@@ -309,6 +309,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:45Z"
   }
 }

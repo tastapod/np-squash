@@ -1,82 +1,82 @@
 {
-  "name": "Charcoal Squash",
-  "style": "Dark",
+  "name": "Contrast Squashed",
+  "style": "Light",
   "author": {
     "name": "NotePlan",
     "email": "hello@noteplan.co"
   },
   "editor": {
-    "backgroundColor": "#2E3235",
-    "altBackgroundColor": "#353A3D",
-    "tintColor": "#D3DB90",
-    "tintColor2": "#00B9ED",
-    "textColor": "#E1E3E2",
-    "toolbarBackgroundColor": "#464A4D",
-    "toolbarIconColor": "#ABACAF",
-    "menuItemColor": "#ABACAF",
-    "timeBlockColor": "#D3DB90",
+    "backgroundColor": "#FFFFFF",
+    "altBackgroundColor": "#F8F8F8",
+    "tintColor": "#3071B5",
+    "tintColor2": "#DD3E3B",
+    "textColor": "#000000",
+    "toolbarBackgroundColor": "#D9D9D9",
+    "toolbarIconColor": "#414141",
+    "menuItemColor": "#414141",
+    "timeBlockColor": "#3071B5",
     "shouldOverwriteFont": true
   },
   "styles": {
     "body": {
       "font": "AvenirNext-Regular",
       "size": 16,
-      "color": "#E1E3E2",
-      "paragraphSpacing": -5
+      "color": "#000000",
+      "paragraphSpacing": 0
     },
     "title1": {
-      "color": "#E1E3E2",
+      "color": "#000000",
       "size": 28
     },
     "title2": {
-      "color": "#E1E3E2",
+      "color": "#000000",
       "size": 24
     },
     "title3": {
-      "color": "#E1E3E2",
+      "color": "#000000",
       "size": 20
     },
     "working-on": {
-      "backgroundColor": "#77bd93f9",
-      "color": "#E9DEF9"
+      "backgroundColor": "#306600FF",
+      "color": "#17003B"
     },
     "flagged-1": {
-      "backgroundColor": "#44ff5555",
-      "color": "#FFB5B5",
+      "backgroundColor": "#22D04023",
+      "color": "#59000B",
       "paragraphSpacing": 3
     },
     "flagged-2": {
-      "backgroundColor": "#77ff5555",
-      "color": "#FFCCCC",
+      "backgroundColor": "#40E3021D",
+      "color": "#420008",
       "paragraphSpacing": 3
     },
     "flagged-3": {
-      "backgroundColor": "#AAff5555",
-      "color": "#FFDBBE",
+      "backgroundColor": "#6FFF0202",
+      "color": "#1F0004",
       "paragraphSpacing": 3
     },
     "title-mark1": {
-      "color": "#45E1E3E2",
+      "color": "#45000000",
       "size": 28,
       "paragraphSpacing": 3
     },
     "title-mark2": {
-      "color": "#45E1E3E2",
+      "color": "#45000000",
       "size": 24,
       "paragraphSpacing": 3
     },
     "title-mark3": {
-      "color": "#45E1E3E2",
+      "color": "#45000000",
       "size": 20,
       "paragraphSpacing": 3
     },
     "title4": {
-      "color": "#E1E3E2",
+      "color": "#000000",
       "size": 16,
       "underlineStyle": 1
     },
     "title-mark4": {
-      "color": "#45E1E3E2",
+      "color": "#45000000",
       "size": 18,
       "paragraphSpacing": 3
     },
@@ -84,47 +84,47 @@
       "font": "AvenirNext-Bold"
     },
     "bold-left-mark": {
-      "color": "#45E1E3E2"
+      "color": "#45000000"
     },
     "bold-right-mark": {
-      "color": "#45E1E3E2"
+      "color": "#45000000"
     },
     "italic": {
       "font": "AvenirNext-Italic"
     },
     "italic-left-mark": {
-      "color": "#45E1E3E2"
+      "color": "#45000000"
     },
     "italic-right-mark": {
-      "color": "#45E1E3E2"
+      "color": "#45000000"
     },
     "boldItalic": {
       "font": "AvenirNext-BoldItalic"
     },
     "boldItalic-left-mark": {
-      "color": "#45E1E3E2"
+      "color": "#45000000"
     },
     "boldItalic-right-mark": {
-      "color": "#45E1E3E2"
+      "color": "#45000000"
     },
     "code": {
       "font": "Menlo-Regular",
-      "color": "#00B9ED",
+      "color": "#DD3E3B",
       "size": 15
     },
     "code-left-backtick": {
-      "color": "#6600B9ED"
+      "color": "#66DD3E3B"
     },
     "code-right-backtick": {
-      "color": "#6600B9ED"
+      "color": "#66DD3E3B"
     },
     "checked": {
-      "color": "#66E1E3E2",
+      "color": "#66000000",
       "headIndent": 33,
       "paragraphSpacing": 3
     },
     "todo": {
-      "color": "#D3DB90",
+      "color": "#3071B5",
       "headIndent": 33,
       "size": 16,
       "paragraphSpacing": 3
@@ -135,23 +135,17 @@
     },
     "tabbed": {
       "headIndent": 43,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "quote-mark": {
-      "color": "#8000B9ED",
+      "color": "#80DD3E3B",
       "headIndent": 33,
       "size": 16
     },
     "quote-content": {
-      "color": "#E1E3E2",
+      "color": "#000000",
       "type": "italic",
       "headIndent": 33
-    },
-    "markdown-link": {
-      "color": "#D3DB90"
-    },
-    "markdown-link-url": {
-      "color": "#90E1E3E2"
     },
     "link": {},
     "schedule-to-date-link": {},
@@ -159,47 +153,46 @@
     "schedule-from-date-link": {},
     "note-title-link": {},
     "hashtag": {
-      "backgroundColor": "#20D3DB90",
+      "backgroundColor": "#203071B5",
       "paragraphSpacing": 0
     },
     "attag": {
-      "backgroundColor": "#20D3DB90",
+      "backgroundColor": "#203071B5",
       "paragraphSpacing": 0
     },
     "phonenumber": {},
     "highlighted": {
-      "backgroundColor": "#449BB7C3",
-      "color": "#D5EAF2"
+      "backgroundColor": "#6684FF00"
     },
     "highlighted-left-marker": {
-      "color": "#40EAEAEA"
+      "color": "#40000000"
     },
     "highlighted-right-marker": {
-      "color": "#40EAEAEA"
+      "color": "#40000000"
     },
     "strikethrough": {
-      "color": "#AACBCCC6",
-      "strikethroughColor": "#CBCCC6"
+      "color": "#99333333",
+      "strikethroughColor": "#DD333333"
     },
     "strikethrough-left-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#44333333"
     },
     "strikethrough-right-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#44333333"
     },
     "underline": {
       "underlineStyle": 2,
-      "underlineColor": "#D3DB90"
+      "underlineColor": "#FFCC66"
     },
     "underline-left-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#44333333"
     },
     "underline-right-tilde": {
-      "color": "#66CBCCC6"
+      "color": "#44333333"
     }
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:45Z"
   }
 }

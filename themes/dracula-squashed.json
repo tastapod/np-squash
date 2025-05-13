@@ -1,44 +1,44 @@
 {
-  "name": "Spacegray Squash",
+  "name": "Dracula Squashed",
   "style": "Dark",
   "author": {
     "name": "NotePlan",
     "email": "hello@noteplan.co"
   },
   "editor": {
-    "backgroundColor": "#2C303B",
-    "altBackgroundColor": "#262A33",
-    "tintColor": "#9EC87C",
-    "tintColor2": "#ECCB84",
-    "textColor": "#C7C6CC",
-    "toolbarBackgroundColor": "#434551",
-    "toolbarIconColor": "#A0A0A8",
-    "menuItemColor": "#A0A0A8",
-    "timeBlockColor": "#9EC87C",
+    "backgroundColor": "#282a36",
+    "altBackgroundColor": "#232530",
+    "tintColor": "#0FE9FF",
+    "tintColor2": "#FFB763",
+    "textColor": "#f8f8f2",
+    "toolbarBackgroundColor": "#464852",
+    "toolbarIconColor": "#F7F7EF",
+    "menuItemColor": "#F7F7EF",
+    "timeBlockColor": "#0FE9FF",
     "shouldOverwriteFont": true
   },
   "styles": {
     "body": {
       "font": "AvenirNext-Regular",
       "size": 16,
-      "color": "#C7C6CC",
-      "paragraphSpacing": -5
+      "color": "#F7F7EF",
+      "paragraphSpacing": 0
     },
     "title1": {
-      "color": "#EB7381",
+      "color": "#45F170",
       "size": 28
     },
     "title2": {
-      "color": "#EB7381",
+      "color": "#45F170",
       "size": 24
     },
     "title3": {
-      "color": "#EB7381",
+      "color": "#45F170",
       "size": 20
     },
     "working-on": {
-      "backgroundColor": "#77bd93f9",
-      "color": "#E9DEF9"
+      "backgroundColor": "#44f1fa8c",
+      "color": "#F5FAC1"
     },
     "flagged-1": {
       "backgroundColor": "#44ff5555",
@@ -56,27 +56,27 @@
       "paragraphSpacing": 3
     },
     "title-mark1": {
-      "color": "#45EB7381",
+      "color": "#4045F170",
       "size": 28,
       "paragraphSpacing": 3
     },
     "title-mark2": {
-      "color": "#45EB7381",
+      "color": "#4045F170",
       "size": 24,
       "paragraphSpacing": 3
     },
     "title-mark3": {
-      "color": "#45EB7381",
+      "color": "#4045F170",
       "size": 20,
       "paragraphSpacing": 3
     },
     "title4": {
-      "color": "#EB7381",
+      "color": "#45F170",
       "size": 16,
       "underlineStyle": 1
     },
     "title-mark4": {
-      "color": "#45EB7381",
+      "color": "#4045F170",
       "size": 18,
       "paragraphSpacing": 3
     },
@@ -84,47 +84,47 @@
       "font": "AvenirNext-Bold"
     },
     "bold-left-mark": {
-      "color": "#45C7C6CC"
+      "color": "#40F7F7EF"
     },
     "bold-right-mark": {
-      "color": "#45C7C6CC"
+      "color": "#40F7F7EF"
     },
     "italic": {
       "font": "AvenirNext-Italic"
     },
     "italic-left-mark": {
-      "color": "#45C7C6CC"
+      "color": "#40F7F7EF"
     },
     "italic-right-mark": {
-      "color": "#45C7C6CC"
+      "color": "#40F7F7EF"
     },
     "boldItalic": {
       "font": "AvenirNext-BoldItalic"
     },
     "boldItalic-left-mark": {
-      "color": "#45C7C6CC"
+      "color": "#40F7F7EF"
     },
     "boldItalic-right-mark": {
-      "color": "#45C7C6CC"
+      "color": "#40F7F7EF"
     },
     "code": {
       "font": "Menlo-Regular",
-      "color": "#ECCB84",
+      "color": "#FFB763",
       "size": 15
     },
     "code-left-backtick": {
-      "color": "#66ECCB84"
+      "color": "#66FFB763"
     },
     "code-right-backtick": {
-      "color": "#66ECCB84"
+      "color": "#66FFB763"
     },
     "checked": {
-      "color": "#66C7C6CC",
+      "color": "#55F7F7EF",
       "headIndent": 33,
       "paragraphSpacing": 3
     },
     "todo": {
-      "color": "#9EC87C",
+      "color": "#0FE9FF",
       "headIndent": 33,
       "size": 16,
       "paragraphSpacing": 3
@@ -135,15 +135,15 @@
     },
     "tabbed": {
       "headIndent": 43,
-      "paragraphSpacing": -5
+      "paragraphSpacing": 0
     },
     "quote-mark": {
-      "color": "#80ECCB84",
+      "color": "#ccff79c6",
       "headIndent": 33,
       "size": 16
     },
     "quote-content": {
-      "color": "#C7C6CC",
+      "color": "#ccf8f8f2",
       "type": "italic",
       "headIndent": 33
     },
@@ -153,17 +153,17 @@
     "schedule-from-date-link": {},
     "note-title-link": {},
     "hashtag": {
-      "backgroundColor": "#209EC87C",
+      "backgroundColor": "#200FE9FF",
       "paragraphSpacing": 0
     },
     "attag": {
-      "backgroundColor": "#209EC87C",
+      "backgroundColor": "#200FE9FF",
       "paragraphSpacing": 0
     },
     "phonenumber": {},
     "highlighted": {
-      "backgroundColor": "#44C2CFFF",
-      "color": "#DBE3FF"
+      "backgroundColor": "#77bd93f9",
+      "color": "#EADBFF"
     },
     "highlighted-left-marker": {
       "color": "#40EAEAEA"
@@ -183,7 +183,7 @@
     },
     "underline": {
       "underlineStyle": 2,
-      "underlineColor": "#EB7381"
+      "underlineColor": "#50fa7b"
     },
     "underline-left-tilde": {
       "color": "#66CBCCC6"
@@ -194,6 +194,6 @@
   },
   "squashedBy": {
     "name": "np-squash",
-    "date": "2025-05-12T12:23:23Z"
+    "date": "2025-05-13T18:34:45Z"
   }
 }

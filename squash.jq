@@ -1,5 +1,5 @@
 # Metadata
-.name += " Squash"
+.name += " Squashed"
 
 | . += {
     squashedBy: {
@@ -10,7 +10,7 @@
 
 # Body text (negative spacing brings paragraph blocks closer together)
 | .styles.["body", "tabbed"] += {
-    paragraphSpacing: -5,
+    paragraphSpacing: 0,
 }
 
 # Headings
